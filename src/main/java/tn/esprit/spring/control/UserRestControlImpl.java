@@ -14,7 +14,7 @@ public class UserRestControlImpl {
 // http://localhost:8083/SpringMVC/servlet/
 @RequestMapping("/")
 @ResponseBody
-public String welcome() { return "From Docker Container: Bonjour, Bienvenue à l'application de test des Web Services REST."; }
+public String welcome() { return "Mise en place d’une plateforme de développement décentralisée sécurisée (mode SaaS) sur un cloud privé."; }
 
  
 }
