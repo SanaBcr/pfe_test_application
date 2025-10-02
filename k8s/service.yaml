@@ -3,9 +3,10 @@ kind: Service
 metadata:
   name: demo-app
 spec:
-  type: ClusterIP
+  type: NodePort        # garde NodePort si tu veux y accéder depuis ton LAN
   selector:
     app: demo-app
   ports:
-    - port: 80
-      targetPort: 8080
+    - name: http
+      port: 80
+      targetPort: 9091  # ✅ aligné avec l’app
