@@ -8,4 +8,4 @@ import org.springframework.web.bind.annotation.RestController;
         @ResponseBody 
         public String welcome() { return "Mise en place d’une plateforme de développement décentralisée sécurisée (mode SaaS) sur un cloud privé."; }
     }
-<p>bonjour</p>
+
