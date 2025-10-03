@@ -6,6 +6,6 @@ import org.springframework.web.bind.annotation.RestController;
     { // http://localhost:8083/SpringMVC/servlet/ 
         @RequestMapping("/") 
         @ResponseBody 
-public String welcome() { return "Mise en place d’une plateforme de développement décentralisée sécurisée (mode SaaS) sur un cloud privé."; }
+        public String welcome() { return "Mise en place d’une plateforme de développement décentralisée sécurisée (mode SaaS) sur un cloud privé."; }
     }
-
+<p>bonjour</p>
